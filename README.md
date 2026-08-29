@@ -10,17 +10,18 @@ This repository contains my solutions for the Affinity Answers Full Stack Engine
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 technical-assignment/
 ├── README.md
-├── requirements.txt
 ├── question1/
-│   └── scraper.py
+│   ├── scraper.py
+│   └── requirements.txt
 ├── question2/
 │   └── queries.sql
 └── question3/
     └── companies.sh
-```
 
 ## Questions
 
