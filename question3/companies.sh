@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if exactly one URL argument was provided
+# this is to Check if exactly one URL argument was provided
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 \"CSV_URL\""
     exit 1
@@ -8,7 +8,7 @@ fi
 
 csv_url="$1"
 
-# Download the CSV data
+# now Download the CSV data
 csv_data=$(curl -fsSL "$csv_url")
 
 # Check if the download was successful
